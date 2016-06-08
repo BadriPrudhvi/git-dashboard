@@ -7,5 +7,6 @@ names(sample) <- c("Class", "Name", "Examination", "Date", "Subject",
                    "Class_Average", "Exam_Percentage")
 
 write.csv(sample, "new_sample4.csv", row.names = FALSE)
+# sample is deleted by mistake
 
 
